@@ -1,0 +1,395 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+ 
+
+a{
+ 	text-decoration: none;
+ }
+ .container{
+ 	width: 1140px;
+	margin: auto;
+ }
+
+
+
+
+/*********************
+Head Section css
+**********************/
+
+
+
+.head{
+	padding: 10px 0px;
+	background-color: #FEF1E6;
+	padding: 5px 20px;
+}
+
+.main-header{
+	display: flex;
+    justify-content: space-between;
+    font-family: "Quicksand",sans-serif;
+
+}
+
+.left-header,.right-header{
+ display: flex;
+}
+
+.left-header ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 25px;
+
+
+}
+.left-header ul li a{
+	color: #5e5e5e;
+	font-size: 16px;
+}
+.left-header img{
+	padding: 10px 10px;
+
+}
+.right-h h1{
+font-size: 80px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 24px;
+font-family: "Quicksand",sans-serif;
+
+}
+.right-h{position: absolute;
+top: 250px;}
+.right-h button{padding: 20px,36px;}
+.header-img img{margin-top: 0px;
+margin-bottom: 150px;
+position: relative;}
+
+.right-h p{
+font-family: "Quicksand",sans-serif;
+margin-bottom: 40px;
+color: #1A1A1A;
+font-size: 18px;
+line-height: 1.6;
+font-weight: 500;
+}
+
+.right-h button{
+	background-color:#f24607 ;
+	color: white;
+	padding: 15px 45px;
+	border: none;
+	border-radius: 30px;
+	font-size: 22px;
+    font-weight: 400;  
+}
+.right-h button : hover{
+	color: #ffffff;
+}
+
+.right-header p{
+	padding: 20px 25px;
+	color: #f04506;
+}
+
+.right-header button{
+	background-color: #f04506;
+    margin: 5px 40px 5px 20px;
+    width: 160px;
+    border: none;
+    border-radius: 35px;
+    height: 50px;
+    color: white;
+    font-family: "Quicksand",sans-serif;
+}
+/******************************
+2nd Section css
+*******************************/
+
+.mid{
+	text-align: center;
+
+}
+
+.e2 span{
+
+    font-size: 16px;
+    margin-bottom: 22px;
+    font-family: "DM Sans",sans-serif;
+    color: #f04506;
+    letter-spacing: .2em;
+    
+}
+
+.e2 h2{
+	font-family: "Quicksand",sans-serif;
+    color: #000;
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: 700px;
+   
+}
+
+.on3{
+	display: flex;
+    justify-content: space-between;
+   }
+
+.mid2{
+	margin-top: 100px;
+}
+
+.left h4,.middle h4,.right h4{
+	text-align: center;
+	font-family: "Quicksand",sans-serif;
+	font-size: 22px;
+	margin-top:20px;
+}
+
+.left p,.middle p,.right p{
+	text-align: center;
+	font-family: "Quicksand",sans-serif;
+	font-size: 16px;
+	margin-top:20px;
+}
+
+.left button,.middle button,.right button{
+	background-color: #f04506;
+    width: 190px;
+    border: none;
+    border-radius: 35px;
+    height: 50px;
+    color: white;
+    font-family: "Quicksand",sans-serif;
+    margin: 20px 0px 30px 70px;
+    font-size: 18px;
+}
+.left img,.middle img,.right img{
+	border-bottom-right-radius: 30px;
+}
+.left,.middle,.right{
+	 background-color: #FEF1E6;
+	 padding: 15px 15px 0px 15px;
+	 margin-bottom: 150px;
+	 border-bottom-right-radius: 70px;
+}
+/***************************
+3rd section css
+****************************/
+
+.on4{
+	display: flex;
+	margin-bottom: 100px;
+    justify-content: space-between;
+    font-family: "Quicksand",sans-serif;
+
+}
+
+.bn-right{
+	margin: 120px 0px 0px 0px;
+}
+
+.bn-left img{
+	width: 100%;
+	height: auto;
+}
+
+.w2{
+	color: #f04506;
+	font-size: 16PX;
+	letter-spacing: .2em;
+	margin-bottom: 20PX;
+}
+
+.bn-right h2{
+	color: black;
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+.w3,.w4,.w5{
+	color: black;
+	font-size: 16px;
+	margin-bottom: 13px;
+
+}
+.bn-right button{
+	background-color: #f04506;
+    width: 160px;
+    border: none;
+    border-radius: 35px;
+    height: 50px;
+    color: white;
+    font-family: "Quicksand",sans-serif;
+    margin: 30px 0px 0px 0px;
+    font-size: 18px;
+}
+/************************
+4th Section css
+*************************/
+.on5{
+	display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.top2 span{
+
+    font-size: 16px;
+    margin-bottom: 22px;
+    font-family: "DM Sans",sans-serif;
+    color: #f04506;
+    letter-spacing: .2em;
+    
+}
+
+.top2 h2{
+	font-family: "Quicksand",sans-serif;
+    color: #000;
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: 700px;
+
+}
+.on5{
+	margin-top: 200px 0px;
+
+
+}
+.top2{
+	text-align: center;
+	margin: 30px 0px 40px 0px;
+}
+
+.r2,.r3,.r4{
+	text-align: center;
+	margin: 16px;
+    padding: 32px;
+    border-radius: 4px;
+
+}
+
+.r2 h5,.r3 h5,.r4 h5{
+	font-size: 18px;
+	font-family: "Quicksand",sans-serif;
+	margin-bottom: 20px;
+}
+
+.r2 p,.r3 p,.r4 p{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+.on9{
+	
+	padding: 130px 0px;
+}
+.section-4{
+	background-color: #FEF1E6;
+}
+.r2:hover, .r3:hover, .r4:hover{
+	background-color: white;
+	transition: 0.5s;
+}
+
+/*************************
+7th Section css
+**************************/
+
+.on6 img{
+	width: 100% ;
+}
+
+.on6{
+	display: flex;
+    justify-content: 25%;
+}
+
+/**************************
+Footer Section css
+***************************/
+
+.on7{
+	display: flex;
+	justify-content: space-between;
+	padding: 120px 50px 120px 0px;
+
+}
+
+.on7 p,.on7 ul li a{
+
+	font-family: "DM Sans",sans-serif;
+	color: #5e5e5e;
+}
+
+.one p{
+	
+	line-height: 2;
+	margin-top: 40px;
+	font-size: 16px;
+
+}
+.on7 ul li{
+
+	list-style: none;
+	line-height: 3;
+
+}	
+
+
+.on7 h4{
+	font-family: "Quicksand",sans-serif;
+	margin:0px 0px 40px;
+	font-size: 20px;
+	color: #5e5e5e;
+	font-weight: 300px;
+}
+
+.four h3{
+	font-family: "DM Sans",sans-serif;
+	margin:40px 0px 40px;
+	font-size: 24px;
+	color: #f04506;
+	font-weight: 300px;
+}
+.quick ul li a,.three ul li a{
+	font-size: 16px;
+	font-weight: 400px;
+	transition: 0.5s;
+}
+
+.quick ul li a:hover,.three ul li a:hover{
+	color: #f04506;
+	transition: 0.5s;
+	margin-left: 5px;
+}
+
+.one ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 20px 5px 0px 5px;
+
+}
+/*social*/
+.social ul li a i{
+
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	border:2px dotted #f04506;
+	color: #f04506;
+	border-radius: 100%;
+	transition: 0.5s;
+
+}
+
+.social ul li a i:hover{
+	background-color: #f04506;
+	color: white;
+	transition: 0.5s;
+	transform:scale(2.0);
+}
